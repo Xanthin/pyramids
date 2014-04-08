@@ -1,0 +1,10 @@
+# Template
+
+Sandstone with eye = 
+Sandstone men = 
+Sandstone with sun = 
+Cracked sandstone brick = 
+trapstone = 
+
+Mummy spawn-egg = 
+Mummy spawner = 
