@@ -1,0 +1,10 @@
+# Translation by Xanthin
+
+Sandstone with eye = Sandstein mit Auge
+Sandstone with men = Sandstein mit Menschen
+Sandstone with sun = Sandstein mit Sonne
+Cracked sandstone brick = Rissiger Sandsteinziegel
+trapstone = Fallenstein
+
+Mummy spawn-egg = Mumienei
+Mummy spawner = Mumienspawner
