@@ -1,4 +1,11 @@
 --pyramids = {}
+-- Boilerplate to support localized strings if intllib mod is installed.
+local S
+if intllib then
+	S = intllib.Getter()
+else
+	S = function(s) return s end
+end
 
 local mummy_walk_limit = 1
 local mummy_chillaxin_speed = 1
@@ -341,7 +348,7 @@ minetest.register_entity("pyramids:mummy_spawner", spawner_DEF)
 --spawn-egg/spawner
 
 minetest.register_craftitem("pyramids:spawn_egg", {
-	description = "Mummy spawn-egg",
+	description = S("Mummy spawn-egg"),
 	inventory_image = "pyramids_mummy_egg.png",
 	liquids_pointable = false,
 	stack_max = 99,
@@ -362,7 +369,7 @@ function pyramids.spawn_mummy (pos, number)
 end
 
 minetest.register_node("pyramids:spawner_mummy", {
-	description = "Mummy spawner",
+	description = S("Mummy spawner"),
 	paramtype = "light",
 	tiles = {"pyramids_spawner.png"},
 	is_ground_content = true,
